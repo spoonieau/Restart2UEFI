@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\Spoonie\Desktop\UWPicon.png</Source>
+    <SmallTileSource>C:\Users\Spoonie\Desktop\UWPicon.png</SmallTileSource>
+    <MediumTileSource>C:\Users\Spoonie\Desktop\UWPicon.png</MediumTileSource>
+    <WideTileSource>C:\Users\Spoonie\Desktop\UWPicon.png</WideTileSource>
+    <LargeTileSource>C:\Users\Spoonie\Desktop\UWPicon.png</LargeTileSource>
+    <AppIconSource>C:\Users\Spoonie\Desktop\UWPicon.png</AppIconSource>
+    <SplashScreenSource>C:\Users\Spoonie\Desktop\UWPicon.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\Spoonie\Desktop\UWPicon.png</PackageLogoSource>
+    <AppxPackageIsForStore>True</AppxPackageIsForStore>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x64</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+</Project>

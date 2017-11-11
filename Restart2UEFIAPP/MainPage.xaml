@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="Restart2UEFIAPP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Restart2UEFIAPP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:UI="using:Microsoft.Advertising.WinRT.UI"
+    mc:Ignorable="d" Width="395" Height="250">
+
+    <Grid Width="395" Margin="0,0,0,7">
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Button x:Name="btnAbout" Content="?" HorizontalAlignment="Left" Margin="8,8,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnAbout_Click" Background="#FFCCCCCC" BorderBrush="#FF999999"/>
+
+        <Button x:Name="btnFirmwareShutdown" HorizontalAlignment="Left" VerticalAlignment="Top" Width="175" Click="btnFirmwareShutdown_ClickAsync" Height="175" FontSize="10" VerticalContentAlignment="Stretch" BorderBrush="#FF999999" Background="#FFCCCCCC" Margin="212,62,0,0">
+            <StackPanel HorizontalAlignment="Left" Height="165" Margin="-50,-1,-50,-1" VerticalAlignment="Top" Width="165">
+                <TextBlock x:Name="tblRestartButton" TextWrapping="Wrap" Width="165" Height="40" TextAlignment="Center"/>
+                <Image Height="100" Source="Assets/Images/RestartIcon.png"/>
+            </StackPanel>
+        </Button>
+
+        <Button x:Name="btnFirmwareRestart" HorizontalAlignment="Left" VerticalAlignment="Stretch" Click="btnFirmwareRestart_ClickAsync"  UseLayoutRounding="False" VerticalContentAlignment="Stretch" FontSize="10" BorderBrush="#FF999999" Background="#FFCCCCCC" Margin="8,62,0,6" Width="175">
+            <StackPanel HorizontalAlignment="Left" Height="165" Margin="-51,-1,-51,0" VerticalAlignment="Top" Width="165">
+                <TextBlock x:Name="tblShutdownButton" Text="TextBlock" TextWrapping="Wrap" Height="40" Margin="0,0,2,0" RenderTransformOrigin="0.5,0.5" Width="165" TextAlignment="Center">
+                    <TextBlock.RenderTransform>
+                        <CompositeTransform ScaleY="1"/>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <Image Height="100" Source="Assets/Images/ShutdownIcon.png"/>
+            </StackPanel>
+        </Button>
+        <TextBox HorizontalAlignment="Left" Margin="66,7,0,0" Text="Restart2UEFI" VerticalAlignment="Top" Width="320" Height="50" FontSize="24" IsReadOnly="True"/>
+
+
+    </Grid>
+</Page>
