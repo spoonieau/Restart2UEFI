@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restart2UEFIMONO", "Restart2UEFIMONO\Restart2UEFIMONO.csproj", "{E2B1AF7A-E4C9-48CE-96EA-A585A5CA7695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2B1AF7A-E4C9-48CE-96EA-A585A5CA7695}.Debug|x86.ActiveCfg = Debug|x86
+		{E2B1AF7A-E4C9-48CE-96EA-A585A5CA7695}.Debug|x86.Build.0 = Debug|x86
+		{E2B1AF7A-E4C9-48CE-96EA-A585A5CA7695}.Release|x86.ActiveCfg = Release|x86
+		{E2B1AF7A-E4C9-48CE-96EA-A585A5CA7695}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		description = A small application allowing you to shutdown or restart you UEFI Linux system to firmware.
+		version = 1.0
+	EndGlobalSection
+EndGlobal
