@@ -1,0 +1,2 @@
+#!/bin/sh
+exec mono --verify-all /usr/share/restart2uefi/Restart2UEFIMONO.exe "$@"

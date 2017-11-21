@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Restart2UEFI
+GenericName=Utility to shutdown or Restart to Firmware
+Comment=Easily restart your UEFI system to firmware
+Icon=r2uefi
+Exec=pkexec restart2uefi
+NoDisplay=false
+Categories=System;
+StartupNotify=false
+Terminal=false
