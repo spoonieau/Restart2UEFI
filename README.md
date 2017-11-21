@@ -11,6 +11,12 @@ Needs Restart2UEFIHelper.exe in projects win32 dir.
 Was going to be release on the windows store but due to needing the use of a win32exe and only holding a developer licence, 
 I was unable to submit and have a compiled App available.
 
-##Restar2UEFIHelper build 1.0.0.0
+## Restar2UEFIHelper build 1.0.0.0
 Helper exe need by Restart2UEFIAPP. The UWP app luanches and passes arg's to this helper, then the helper makes to calls to the OS.
 Compile and place the Restart2UEFIHelper.exe into the win32 dir of the Restar2UEFIAPP project.
+
+## Restart2UEFIMONO Build 1.0.0.0
+Restart2UEFI ported over to Linux via the use of systemd and the MONO framework.
+Authentication is handled by polkit, if still rely on gksu, etc. Edit the desktop file 
+and add you authentication method.
+Dependencies gtk# >= 2.12, Mono >= 4.5 and systemd
